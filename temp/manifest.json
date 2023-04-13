@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.12/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.12",
+  "id": "98e9cf40-d84b-11ed-8d56-831dc619f4b7",
+  "version": "2.2",
+  "packageName": "msteamsconnector",
+  "developer": {
+    "name": "usama.zubair",
+    "websiteUrl": "https://189e-110-93-205-130.ngrok-free.app",
+    "privacyUrl": "https://189e-110-93-205-130.ngrok-free.app/privacy.html",
+    "termsOfUseUrl": "https://189e-110-93-205-130.ngrok-free.app/tou.html"
+  },
+  "name": {
+    "short": "ms teams connector",
+    "full": "ms teams connector"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "connectors": [
+    {
+      "connectorId": "2267524e-6c41-49cf-a8e3-8e1e14029d48",
+      "configurationUrl": "https://189e-110-93-205-130.ngrok-free.app/msTeamsConnector/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "scopes": ["team"]
+    }
+  ],
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": ["189e-110-93-205-130.ngrok-free.app"],
+  "showLoadingIndicator": false
+}

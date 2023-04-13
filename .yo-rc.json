@@ -1,0 +1,9 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "usama.zubair"
+    },
+    "libraryName": "msTeamsConnector",
+    "generator-version": "4.1.0"
+  }
+}
